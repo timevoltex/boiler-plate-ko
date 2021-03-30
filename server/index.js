@@ -30,7 +30,7 @@ mongoose
 
 app.get("/", (req, res) => res.send("한숨만 나오네요"));
 
-app.post("api/users/register", (req, res) => {
+app.post("/api/users/register", (req, res) => {
   //회원가입시 필요한 정보를 client 에서 가져오면
   //그것들을 DB에 넣어준다.
 
